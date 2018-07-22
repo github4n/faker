@@ -1,0 +1,264 @@
+@import "./util"
+/* 微信消息列表 */
+
+.wx-message-item .wx-items
+  height: getAndroidPx(143px)
+  padding-left: getAndroidPx(42px)
+  padding-top: getAndroidPx(24px)
+  padding-bottom: getAndroidPx(24px)
+  border-bottom: 1px solid #d9d9d9
+  position: relative
+
+  .tit-img
+    height: getAndroidPx(143px)
+    width: getAndroidPx(143px)
+  .wx-items-con
+    position: absolute
+    left: getAndroidPx(224px)
+    top: getAndroidPx(24px)
+    right: getAndroidPx(152px)
+    .tit
+      color: #353535
+      font-size: getAndroidPx(40px)
+      padding-top: getAndroidPx(8px)
+    .con-text
+      color: #999999
+      font-size: getAndroidPx(34px)
+    .time
+      color: #bbbbbb
+      font-size: getAndroidPx(30px)
+      position: absolute
+      top: getAndroidPx(10px)
+      right: getAndroidPx(-116px)
+
+  .my-tips
+    position: absolute
+    top: 6px
+    left: getAndroidPx(148px)
+    width: getAndroidPx(52px)
+    height: getAndroidPx(60px)
+    background-image: url('../../../../static/svg/dadian.svg')
+    background-size: contain
+    line-height: getAndroidPx(60px)
+    background-repeat: no-repeat
+
+  .my-tips .num
+    color: #fff
+    font-size: 10px
+    width: getAndroidPx(52px)
+    text-align: center
+    display: block
+    position: relative
+
+
+  .my-jiao
+    color: #ff3e3e
+    font-size: 10px
+    position: absolute
+    top: 2px
+    left: getAndroidPx(170px)
+
+  .button-group
+    position: absolute
+    right: 10px
+    bottom: 4px
+    opacity: .9
+
+//微信聊天css样式
+.weixin-cahat-box
+  background-color: #ebebeb
+  padding: getAndroidPx(24px)
+  .people-item
+    position: relative
+    button
+      position: absolute !important
+      width: 20px
+      height: 20px
+      line-height: 20px
+      padding: 0
+      margin: 0
+      text-align: center
+      padding: 0
+      top: -6px
+      opacity: .9
+  .people-item
+    margin-bottom: getAndroidPx(35px)
+
+    .face
+      width: getAndroidPx(120px)
+      height: getAndroidPx(120PX)
+    .message
+      max-width: 208px
+      box-sizing: border-box
+      padding: getAndroidPx(26px) getAndroidPx(35px)
+      display: inline-block
+      border: 1px solid #d4d4d4
+      border-radius: 6px
+      background-color: #fff
+      color: #353535
+      font-size: getAndroidPx(40px)
+      word-wrap: break-word
+
+    .time-wrap
+      text-align: center
+
+      .time
+        display: inline-block
+        width: getAndroidPx(349px)
+        height: getAndroidPx(61px)
+        text-align: center
+        line-height: getAndroidPx(61px)
+        color: #fff
+        background-color: #d4d4d4
+        border-radius: 6px
+        margin-bottom: getAndroidPx(35px)
+        margin-top: getAndroidPx(35px)
+        font-size: 12px
+    .hongbao
+      width: 210px
+      height: 80px
+      img
+        width: 100%
+      span
+        left: 49px
+        position: absolute
+        top: 12px
+        font-size: 12px
+
+    .zhuanzhang
+      width: 210px
+      height: 78px
+      position: relative
+      font-size: 14px
+      img
+        width: 100%
+      .text
+        font-size: 14px
+    .yuyin .yu
+      height: getAndroidPx(50px)
+      position: relative
+      top: 0px
+
+
+    .yuyin .length
+      position: absolute
+      top: 16px
+      color: #aaaaaa
+      font-size: getAndroidPx(32px)
+      font-weight: bold
+      text-align: left
+
+  .people-item.me
+    button
+      right: -6px
+    .face
+      float: right
+      margin-left: getAndroidPx(27px)
+    .yuyin .length
+      left: -30px
+    .yu
+      float: right
+
+    .message
+      float: right
+      background-color: #a0e75a
+      border-color: #74be50
+      position: relative
+
+      .message-hack
+        position: absolute
+        width: getAndroidPx(16px)
+        right: -6px
+        top: 11px
+    .hongbao
+      float: right
+      //background: url("../../../../static/icon/my-send-hongbao.png") no-repeat 0 0
+      background-size: cover
+      color: #fff
+      position: relative
+      span
+        left: 49px
+    .zhuanzhang
+      //background: url("../../../../static/icon/me-send-zhuanzhang.png") no-repeat 0 0
+      background-size: cover
+      color: #ffffff
+      float: right
+      .text
+        position: absolute
+        top: 12px
+        left: 60px
+      .money
+        position: absolute
+        top: 32px
+        left: 58px
+        font-size: 13px
+
+  .people-item.you
+    button
+      left: -6px
+    .face
+      float: left
+      margin-right: getAndroidPx(27px)
+    .yuyin .length
+      right: -30px
+    .yu
+      float: left
+    .message
+      float: left
+      position: relative
+
+      .message-hack
+        position: absolute
+        width: getAndroidPx(16px)
+        left: -5px
+        top: 11px
+    .hongbao
+      float: left
+      //background: url("../../../../static/icon/you-send-hongbao.png") no-repeat 0 0
+      background-size: cover
+      color: #fff
+      position: relative
+      span
+        left: 55px
+
+    .zhuanzhang
+      //background: url("../../../../static/icon/you-send-zhuanzhang.png") no-repeat 0 0
+      background-size: cover
+      color: #ffffff
+      float: left
+      .text
+        position: absolute
+        top: 12px
+        left: 60px
+      .money
+        position: absolute
+        top: 32px
+        left: 58px
+        font-size: 13px
+
+.file
+
+  border: 1px solid #ccc
+  border-radius: 4px
+  font-size: 14px
+  color: #333
+  margin: 0 auto
+  margin-top: 10px
+  margin-bottom: 10px
+  text-align: center
+  width: 200px
+  height: 200px
+  position: relative
+  line-height: 200px
+
+  input[type=file]
+    left: 0px
+    top: 0px
+    width: 100%
+    height: 100%
+    opacity: 0
+    position: absolute
+  img
+    width: 100%
+    height: 100%
+
