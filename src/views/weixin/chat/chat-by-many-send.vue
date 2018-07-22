@@ -29,11 +29,11 @@
 
       <div v-if="normalPostForYou.target == 'zhuanzhang'">
         <x-input :required="true" :max="10" title="转账标题" :label-width="defaultLabelWidth" placeholder="转账标题" v-model="normalPostForYou.zhuanzhangTitle"></x-input>
-        <x-input :required="true" type="number" :max="10" @on-blur="normalPostForYou.zhuanzhangNum = (normalPostForYou.zhuanzhangNum+'').substr(0,10) " title="转账钱数" :label-width="defaultLabelWidth" placeholder="转账钱数" v-model="normalPostForYou.zhuanzhangNum"></x-input>
+        <x-input :required="true" type="text" :max="10" @on-blur="normalPostForYou.zhuanzhangNum = (normalPostForYou.zhuanzhangNum+'').substr(0,10) " title="转账钱数" :label-width="defaultLabelWidth" placeholder="转账钱数" v-model="normalPostForYou.zhuanzhangNum"></x-input>
       </div>
 
       <div v-if="normalPostForYou.target == 'yuyin'">
-        <x-input :required="true" type="number" title="语音长度" @on-blur="normalPostForYou.timeLong = (normalPostForYou.timeLong+'').substr(0,2) " :label-width="defaultLabelWidth" placeholder="单位秒例如 30" v-model="normalPostForYou.timeLong"></x-input>
+        <x-input :required="true" type="text" title="语音长度" @on-blur="normalPostForYou.timeLong = (normalPostForYou.timeLong+'').substr(0,2) " :label-width="defaultLabelWidth" placeholder="单位秒例如 30" v-model="normalPostForYou.timeLong"></x-input>
       </div>
 
       <box gap="10px 10px">

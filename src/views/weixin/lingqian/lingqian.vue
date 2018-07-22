@@ -5,9 +5,10 @@
       <HeaderController ref="HeaderController"></HeaderController>
     </div>
 
-    <div class="scroll-y footer-y public-phone-view" :class="{ active: tab[1] }">
-      <x-input title="钱数" type="number" @on-blur="appendFormData.money = (appendFormData.money+'').substr(0, 10)" :label-width="defaultLabelWidth" placeholder="钱数" v-model="appendFormData.money"></x-input>
-    </div>
+    <Group class="scroll-y footer-y public-phone-view" :class="{ active: tab[1] }">
+      <x-input title="钱数" type="text" placeholder="钱数" v-model="appendFormData.money"></x-input>
+
+    </Group>
 
     <div class="scroll-y footer-y public-phone-view" :class="{ active: tab[2] }" :style="{ bottom: hideFooter ? '0px' : '50px' }" style="z-index: 600;background-color: #fff">
 
@@ -142,7 +143,8 @@
 
         appendFormData: {
           time: moment().format('YYYY-MM-DD HH:mm'),
-          shoutime: moment().format('YYYY-MM-DD HH:mm')
+          shoutime: moment().format('YYYY-MM-DD HH:mm'),
+          money: ''
         }
       }
     },

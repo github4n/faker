@@ -6,7 +6,7 @@
     </div>
 
     <div class="scroll-y footer-y public-phone-view" :class="{ active: tab[1] }">
-        <x-input title="总金额" placeholder="请输入总金额" style="border-bottom: 1px solid #ccc" v-model="zfbConfig.allmoney" type="number"></x-input>
+        <x-input title="总金额" placeholder="请输入总金额" style="border-bottom: 1px solid #ccc" v-model="zfbConfig.allmoney" type="text"></x-input>
     </div>
 
     <div class="scroll-y footer-y public-phone-view" :class="{ active: tab[2] }" :style="{ bottom: hideFooter ? '0px' : '50px' }" style="z-index: 600;background-color: #fff">
@@ -147,7 +147,7 @@
         nowIndex: 0,
 
         zfbConfig: {
-          allmoney: 0
+          allmoney: ''
         }
       }
     },

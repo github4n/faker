@@ -6,9 +6,9 @@
     </div>
 
     <div class="scroll-y footer-y public-phone-view" :class="{ active: tab[1] }">
-        <x-input title="昨日收益" v-model="zfbConfig.yestoday" :label-width="defaultLabelWidth" type="number"></x-input>
-        <x-input title="总金额" v-model="zfbConfig.allmoney" :label-width="defaultLabelWidth" type="number"></x-input>
-        <x-input title="累计收益" v-model="zfbConfig.allgetmoney" :label-width="defaultLabelWidth" type="number"></x-input>
+        <x-input title="昨日收益" v-model="zfbConfig.yestoday" :label-width="defaultLabelWidth" type="text"></x-input>
+        <x-input title="总金额" v-model="zfbConfig.allmoney" :label-width="defaultLabelWidth" type="text"></x-input>
+        <x-input title="累计收益" v-model="zfbConfig.allgetmoney" :label-width="defaultLabelWidth" type="text"></x-input>
     </div>
 
     <div class="scroll-y footer-y public-phone-view" :class="{ active: tab[2] }" :style="{ bottom: hideFooter ? '0px' : '50px' }" style="z-index: 600;background-color: #fff">

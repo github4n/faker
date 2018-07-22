@@ -6,8 +6,9 @@
     </div>
 
     <div class="scroll-y footer-y public-phone-view" :class="{ active: tab[1] }">
-      <x-input title="下月应还" v-model="zfbConfig.next" :label-width="defaultLabelWidth" type="number"></x-input>
-      <x-input title="可用余额" v-model="zfbConfig.use" :label-width="defaultLabelWidth" type="number"></x-input>
+      <x-input title="下月应还" v-model="zfbConfig.next" :label-width="defaultLabelWidth" type="text"></x-input>
+      <x-input title="可用余额" v-model="zfbConfig.use" :label-width="defaultLabelWidth" type="text"></x-input>
+      <x-input title="可用余额" v-model="zfbConfig.use" :label-width="defaultLabelWidth" type="text"></x-input>
     </div>
 
     <div class="scroll-y footer-y public-phone-view" :class="{ active: tab[2] }" :style="{ bottom: hideFooter ? '0px' : '50px' }" style="z-index: 600;background-color: #fff">

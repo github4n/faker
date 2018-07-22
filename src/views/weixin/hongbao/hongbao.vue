@@ -13,7 +13,7 @@
       </div>
       <x-input :required="true" :max="10" title="发红包昵称" :label-width="defaultLabelWidth" placeholder="昵称" v-model="appendFormData.nicheng"></x-input>
       <x-input title="发红包备注" :max="25" :label-width="defaultLabelWidth" placeholder="备注" v-model="appendFormData.beizhu"></x-input>
-      <x-input title="红包的钱数" type="number" @on-blur="replaceWidth" :label-width="defaultLabelWidth" placeholder="钱数" v-model="appendFormData.qianshu"></x-input>
+      <x-input title="红包的钱数" type="text" @on-blur="replaceWidth" :label-width="defaultLabelWidth" placeholder="钱数" v-model="appendFormData.qianshu"></x-input>
     </div>
 
     <div class="scroll-y footer-y public-phone-view" :class="{ active: tab[2] }" :style="{ bottom: hideFooter ? '0px' : '50px' }" style="z-index: 600;background-color: #fff">

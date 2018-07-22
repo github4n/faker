@@ -7,7 +7,7 @@
 
     <div class="scroll-y footer-y public-phone-view" :class="{ active: tab[1] }">
       <x-input title="收款人姓名" :max="10" :label-width="defaultLabelWidth" placeholder="收款人姓名" v-model="appendFormData.name"></x-input>
-      <x-input title="钱数" type="number" @on-blur="appendFormData.money = (appendFormData.money+'').substr(0, 10)" :label-width="defaultLabelWidth" placeholder="钱数" v-model="appendFormData.money"></x-input>
+      <x-input title="钱数" type="text" @on-blur="appendFormData.money = (appendFormData.money+'').substr(0, 10)" :label-width="defaultLabelWidth" placeholder="钱数" v-model="appendFormData.money"></x-input>
       <datetime v-model="appendFormData.time" format="YYYY-MM-DD HH:mm" title="转账时间"></datetime>
     </div>
 
