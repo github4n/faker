@@ -6,11 +6,13 @@ vue实例项目-微商神器(在线制作微信/支付宝假红包，假聊天�
 ## DEMO
 <div align="center">
   <img src="https://qr.api.cli.im/qr?data=http%253A%252F%252Fshow.thisummer.com%252Fhongbao&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=280&kid=cliim&key=dfd6e8c41af9fd51ae94e79a36319172">
-  
+
 </div>
 <div align="center">
   <a href="http://show.thisummer.com/mi">在线演示</a>
 </div>
+## 采坑
+本项目使用vux 作为ui框架，但是发现一个问题 x-input type =number 在安卓qq浏览器下 v-model 绑定无效 已经向vux提交bug <a href="https://github.com/airyland/vux/issues/2960"></a>
 
 ## 安装
 ```
@@ -37,6 +39,7 @@ vue实例项目-微商神器(在线制作微信/支付宝假红包，假聊天�
   * 注册
 * 设置
   * 关于
+  
 
 
 ## LICENSE
