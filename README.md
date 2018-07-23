@@ -13,7 +13,7 @@ vue实例项目-微商神器(在线制作微信/支付宝假红包，假聊天�
 </div>  
 
 ## 坑
-本项目使用vux 作为ui框架，但是发现一个问题 x-input type =number 在安卓qq浏览器下 v-model 绑定无效 已经向vux提交bug <a href="https://github.com/airyland/vux/issues/2960"></a>
+本项目使用vux 作为ui框架，但是发现一个问题 x-input type =number 在安卓qq浏览器下 v-model 绑定无效 已经向vux提交<a href="https://github.com/airyland/vux/issues/2960">bug</a>
 
 ## 安装
 ```
