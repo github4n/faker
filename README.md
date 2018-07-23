@@ -19,8 +19,9 @@ vue实例项目-微商神器(在线制作微信/支付宝假红包，假聊天�
 ```
   git clone https://github.com/Jon-Millent/faker.git
   cd faker
-  npm install
+  npm install | cnpm install | yarn
   npm run dev
+  # http://localhost:8081
 ```
 ## 模块
 * 首页
