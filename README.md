@@ -43,6 +43,8 @@ vue实例项目-微商神器(在线制作微信/支付宝假红包，假聊天�
   * 关于
   
 
+## 请我喝杯咖啡，支持更多开源
+![1024.png](https://i.loli.net/2018/07/25/5b57cb91a44a1.png)  
 
 ## LICENSE
 <a href="http://opensource.org/licenses/MIT">MIT</a>
