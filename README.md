@@ -12,10 +12,10 @@ vue实例项目-微商神器(在线制作微信/支付宝假红包，假聊天�
   <a href="http://show.thisummer.com/hongbao">在线演示</a>
 </div>  
 
-## 坑
+## Note
 本项目使用vux 作为ui框架，但是发现一个问题 x-input type =number 在安卓qq浏览器下 v-model 绑定无效 已经向vux提交<a href="https://github.com/airyland/vux/issues/2960">bug</a>
 
-## 安装
+## Install
 ```
   git clone https://github.com/Jon-Millent/faker.git
   cd faker
@@ -23,7 +23,7 @@ vue实例项目-微商神器(在线制作微信/支付宝假红包，假聊天�
   npm run dev
   # http://localhost:8081
 ```
-## 模块
+## Module
 * 首页
   * 微信
     * 生成微信首页
