@@ -1,3 +1,7 @@
+<p align="center">
+  <img alt="logo" src="https://vuejs.org/images/logo.png" width="100" max-width="100%">
+</p>
+
 <h1 align="center">
 faker
 </h1>
