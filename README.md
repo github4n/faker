@@ -10,6 +10,16 @@
   <a href="https://opensource.org/licenses/mit-license.php">
     <img src="https://badges.frapsoft.com/os/mit/mit.svg?v=103">
   </a>
+  <a href="#">
+    <img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103">
+  </a>
+  <a href="#">
+    <img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103">
+  </a>
+  
+  <a href="#">
+    <img src="https://img.shields.io/github/package-json/v/jon-millent/faker.svg">
+  </a>
 
 </p>
 
