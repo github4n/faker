@@ -2,19 +2,19 @@
   <img alt="logo" src="https://vuejs.org/images/logo.png" width="100" max-width="100%">
 </p>
 
-<h1 align="center">
-faker
-</h1>
-
-<h4 align="center">
-vue实例项目-微商神器(在线制作微信/支付宝假红包，假聊天，假转账，假余额，花呗等截图)，代码可自由更改，转载请注明出处，切勿用于商业用途。
-</h4>
-
 <p align="center">
   <a href="https://travis-ci.org/Jon-Millent/faker" title="Build">
     <img src="https://travis-ci.org/Jon-Millent/faker.svg?branch=master" alt="Build">
   </a>
 </p>
+
+<h1 align="center">
+Faker
+</h1>
+
+<h4 align="center">
+vue实例项目-微商神器(在线制作微信/支付宝假红包，假聊天，假转账，假余额，花呗等截图)，代码可自由更改，转载请注明出处，切勿用于商业用途。
+</h4>
 
 
 
