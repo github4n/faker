@@ -3,9 +3,14 @@
 </p>
 
 <p align="center">
+  
   <a href="https://travis-ci.org/Jon-Millent/faker" title="Build">
     <img src="https://travis-ci.org/Jon-Millent/faker.svg?branch=master" alt="Build">
   </a>
+  <a href="https://opensource.org/licenses/mit-license.php">
+    <img src="https://badges.frapsoft.com/os/mit/mit.svg?v=103">
+  </a>
+
 </p>
 
 <h1 align="center">
