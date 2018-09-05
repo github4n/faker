@@ -9,14 +9,9 @@ branches:
    only:
    - master
 
-before_install:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash
-  - export PATH="$HOME/.yarn/bin:$PATH"
-
 cache:
-  yarn: true
   directories:
     - ".eslintcache"
     - "node_modules"
 
-after_script: "yarn run ci"
+after_script: "npm run build"
