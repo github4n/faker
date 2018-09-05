@@ -1,4 +1,6 @@
-# faker
+# faker  
+[![Build Status](https://travis-ci.org/Jon-Millent/faker.svg?branch=master)](https://travis-ci.org/Jon-Millent/faker)  
+<hr>
 vue实例项目-微商神器(在线制作微信/支付宝假红包，假聊天，假转账，假余额，花呗等截图)，代码可自由更改，转载请注明出处，切勿用于商业用途。
 
 
