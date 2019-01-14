@@ -32,11 +32,11 @@ DEMO
 </h5>
 
 <div align="center">
-  <img src="https://qr.api.cli.im/qr?data=http%253A%252F%252Fshow.thisummer.com%252Fhongbao&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=280&kid=cliim&key=dfd6e8c41af9fd51ae94e79a36319172">
+  <img src="https://qr.api.cli.im/qr?data=https%253A%252F%252Fshow.verydog.cn%252Fhongbao&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=260&kid=cliim&key=1839ade32ae89ad32f34a3094d08cda9">
 
 </div>
 <div align="center">
-  <a href="http://show.thisummer.com/hongbao">在线演示</a>
+  <a href="https//show.verydog.cn/hongbao">在线演示</a>
 </div>  
 
 ## Note
