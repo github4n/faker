@@ -36,7 +36,7 @@ DEMO
 
 </div>
 <div align="center">
-  <a href="https//show.verydog.cn/hongbao">在线演示</a>
+  <a href="https://show.verydog.cn/hongbao">在线演示</a>
 </div>  
 
 ## Note
